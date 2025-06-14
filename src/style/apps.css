@@ -15,6 +15,10 @@
     font-size: 30px;
 }
 
+.apps-container .separator {
+    display: flex;
+}
+
 .apps-container .apps-wrapper {
     align-items: center;
     display: flex;
@@ -30,4 +34,20 @@
 
 .apps-container .apps-wrapper .app-image:hover {
     transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .apps-container .separator {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .apps-container .apps-wrapper {
+        flex-direction: row-reverse;
+    }
+
+    .apps-container .apps-wrapper .app-image {
+        height: 250px;
+    }
 }

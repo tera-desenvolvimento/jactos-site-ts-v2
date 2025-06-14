@@ -14,3 +14,18 @@
 .banner-plan-img {
     width: 35%;
 }
+
+@media (max-width: 768px) {
+    .main-banner-container {
+        min-height: 200px;
+        background-position: -200px;
+    }
+
+    .main-banner-wrapper {
+        display: flex;
+    }
+
+    .banner-plan-img {
+        width: 70%;
+    }
+}

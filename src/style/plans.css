@@ -73,3 +73,46 @@
     padding: 20px 50px;
     text-decoration: none;
 }
+
+/* Mobile */
+
+.plans-container-mob {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    background-color: #F56004;
+    gap: 20px;
+}
+
+.plans-container-mob b {
+    color: #ffffd6;
+    font-family: SF UI Display SemiBold;
+    font-size: 20px;
+    z-index: 10;
+}
+
+.plans-container-mob .plans-wrapper-mob {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 10;
+}
+
+.plans-container-mob .plans-wrapper-mob img {
+    width: 310px;
+}
+
+.plans-container-mob span {
+    color: #ffffd6;
+    font-family: SF UI Display SemiBold;
+    font-size: 15px;
+}
+
+.plans-container-mob .logo-background-mob {
+    position: absolute;
+    height: 300px;
+    left: -100px;
+    margin-top: -400px;
+}

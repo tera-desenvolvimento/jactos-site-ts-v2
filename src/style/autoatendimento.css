@@ -59,3 +59,27 @@
 .contrato-container .contrato-wrapper img:hover {
     transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+    .contrato-container .contrato-wrapper {
+        flex-direction: column;
+    }
+
+    .contrato-container .contrato-wrapper h2 {
+        text-align: center;
+    }
+
+    .contrato-container .contrato-wrapper span {
+        text-align: center;
+    }
+
+    .contrato-container .contrato-wrapper .contract-link {
+        align-self: center;
+    }
+
+    .contrato-container .contrato-wrapper img {
+        height: 300px;
+        width: -webkit-fill-available;
+    }
+}
+

@@ -37,3 +37,13 @@
     color: #000;
     margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+    .footer-container .aligner {
+        gap: 20px;
+    }
+
+    .footer-container .aligner {
+        flex-direction: column;
+    }
+}

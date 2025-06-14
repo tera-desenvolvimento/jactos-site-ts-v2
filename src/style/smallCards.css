@@ -8,6 +8,11 @@
     padding-top: 30px
 }
 
+.small-cards-container .separator {
+    display: flex;
+    gap: 40px;
+}
+
 .small-card {
     display: flex;
     justify-content: space-between;
@@ -28,4 +33,33 @@
     font-weight: 700;
     font-size: 1rem;
     color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .small-cards-container {
+        gap: 10px;
+        padding-top: 20px;
+    }
+
+    .small-cards-container .separator {
+        width: -webkit-fill-available;
+        gap: 10px;
+    }
+
+    .small-card {
+        max-width: unset;
+        width: fit-content;
+        padding: 10px;
+        gap: 10px;
+        justify-content: space-between;
+    }
+
+    .small-card .card-icon {
+        height: 2em;
+    }
+
+    .small-card b {
+        font-size: 0.7rem;
+        width: inherit;
+    }
 }

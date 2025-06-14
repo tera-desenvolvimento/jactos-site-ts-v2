@@ -14,10 +14,15 @@ function Apps() {
                 <b>Conheça os apps disponíveis para assinatura</b>
 
                 <div className="apps-wrapper">
-                    <img src={appPremiere} alt="app-premiere" className='app-image' />
-                    <img src={appCombate} alt="app-combate" className='app-image' />
-                    <img src={appGloboplay} alt="app-globoplay" className='app-image' />
-                    <img src={appTelecine} alt="app-telecine" className='app-image' />
+                    <div className="separator">
+                        <img src={appPremiere} alt="app-premiere" className='app-image' />
+                        <img src={appCombate} alt="app-combate" className='app-image' />
+                    </div>
+                    <div className="separator">
+                        <img src={appGloboplay} alt="app-globoplay" className='app-image' />
+                        <img src={appTelecine} alt="app-telecine" className='app-image' />
+                    </div>
+                    
                 </div>
             </div>
         </React.Fragment>

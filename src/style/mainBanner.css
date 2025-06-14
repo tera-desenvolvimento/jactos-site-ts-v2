@@ -1,0 +1,16 @@
+.main-banner-container {
+    display: flex;
+    padding: 30px;
+    background-image: url("../img/new-banner.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.main-banner-wrapper {
+    width: -webkit-fill-available;
+}
+
+.banner-plan-img {
+    width: 35%;
+}

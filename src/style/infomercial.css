@@ -1,0 +1,27 @@
+.infomercial-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 90px;
+    padding: 20px 6rem;
+    text-align: start;
+    background-color: #2A2A2A;
+}
+
+.infomercial-container h2 {
+    color: #f56004;
+    font-family: SF UI Display Bold;
+    font-size: 35px;
+}
+
+.infomercial-container b {
+    color: #ffffff;
+    font-family: SF UI Display SemiBold;
+    padding-top: 15px;
+}
+
+.infomercial-container p {
+    color: #fff;
+    font-family: SF UI Display Ultralight;
+    padding-bottom: 15px;
+}

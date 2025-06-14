@@ -1,0 +1,33 @@
+.apps-container {
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 90px;
+    padding: 20px;
+    text-align: center;
+    gap: 20px;
+}
+
+.apps-container b {
+    font-family: SF UI Display SemiBold;
+    font-size: 30px;
+}
+
+.apps-container .apps-wrapper {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    z-index: 2;
+}
+
+.apps-container .apps-wrapper .app-image {
+    transition: all .3s ease;
+    height: 480px;
+}
+
+.apps-container .apps-wrapper .app-image:hover {
+    transform: scale(1.1);
+}

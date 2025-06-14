@@ -1,0 +1,75 @@
+.plans-container {
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    justify-content: center;
+    padding: 70px 20px 20px;
+    text-align: center;
+    background-color: #F56004;
+}
+
+.plans-container b {
+    color: #ffffd6;
+    font-family: SF UI Display SemiBold;
+    font-size: 30px;
+}
+
+.plans-container .plans-wrapper {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    z-index: 2;
+    padding: 20px;
+}
+
+.plans-container .plans-wrapper img {
+    width: 210px;
+    transition: all .3s ease;
+}
+
+.plans-container .plans-wrapper img:hover {
+    transform: scale(1.1);
+}
+
+.plans-container span {
+    color: #ffffd6;
+    font-family: SF UI Display SemiBold;
+    font-size: 15px;
+}
+
+.plans-container .logo-background {
+    position: absolute;
+    right: 20px;
+    height: 400px;
+    margin-top: 200px;
+    z-index: 1;
+}
+
+.plans-container .smartphone-image {
+    position: absolute;
+    left: 5vw;
+    height: 500px;
+    margin-top: -40px;
+}
+
+.button-container {
+    position: relative;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 20px;
+    z-index: 2;
+    background-color: #fff;
+}
+
+.button-container a {
+    background-color: #f56004;
+    border-radius: 20px;
+    color: #fff;
+    font-family: SF UI Display SemiBold;
+    font-size: 18px;
+    padding: 20px 50px;
+    text-decoration: none;
+}

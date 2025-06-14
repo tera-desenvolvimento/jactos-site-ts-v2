@@ -1,0 +1,9 @@
+.whatsapp-button {
+    bottom: 30px;
+    position: fixed;
+    right: 20px;
+}
+
+.whatsapp-button img {
+    height: 60px;
+}

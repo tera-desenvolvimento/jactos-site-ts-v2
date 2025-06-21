@@ -22,23 +22,20 @@ function Footer() {
                         <a href="#plans">Planos</a>
                     </li>
                     <li className="menu-item">
-                        <a href="#social">Social</a>
+                        <a href="https://www.instagram.com/jactosfibra/" target="_blank">Social</a>
                     </li>
                 </ul>
             </div>
             <div className="menu-column">
                 <ul className="menu-list">
                     <li className="menu-item">
-                        <a href="#support">Suporte</a>
+                        <a href="https://api.whatsapp.com/send?phone=556240099277" target="_blank">Suporte</a>
                     </li>
                     <li className="menu-item">
-                        <a href="#about">Trabalhe conosco</a>
+                        <a href="https://maps.app.goo.gl/CroxnxVB5uNPAKY47" target="_blank">Endereços</a>
                     </li>
                     <li className="menu-item">
-                        <a href="#plans">Endereços</a>
-                    </li>
-                    <li className="menu-item">
-                        <a href="#social">Contrato Online</a>
+                        <a href="https://jactos.contratoonline.tec.br/" target="_blank">Contrato Online</a>
                     </li>
                 </ul>
             </div>

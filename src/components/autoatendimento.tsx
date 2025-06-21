@@ -12,7 +12,7 @@ function AutoAtendimento() {
                     <div>
                         <h2>Autoatendimento para clientes</h2>
                         <span>Contrate seu plano com poucos cliques!</span>
-                        <a href="#" className="contract-link">Clique aqui</a>
+                        <a href="https://jactos.contratoonline.tec.br/" target="_blank" className="contract-link">Clique aqui</a>
                     </div>
                     <img src={contractImg} alt="contract-img" className="contract-img" />
                 </div>

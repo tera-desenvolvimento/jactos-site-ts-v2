@@ -20,7 +20,7 @@ function Plans() {
     if (!isMobileDevice()) {
         return (
             <React.Fragment>
-                <div className="plans-container">
+                <div className="plans-container" id="plans">
                     <b>Temos o plano ideal para você!</b>
 
                     <div className="plans-wrapper">
@@ -36,27 +36,27 @@ function Plans() {
                     <img src={smartphoneImage} alt="smartphone-image" className="smartphone-image" />
                 </div>
                 <div className="button-container">
-                    <a href="#" className='button-contact'>Assine já, clicando aqui</a>
+                    <a href="https://jactos.contratoonline.tec.br/" target="_blank" className='button-contact'>Assine já, clicando aqui</a>
                 </div>
             </React.Fragment>
         )
     } else {
         return (
             <React.Fragment>
-                <div className="plans-container-mob">
+                <div className="plans-container-mob" id="plans">
                     <b>Temos o plano ideal para você!</b>
                     
                     <div className="plans-wrapper-mob">
-                        <a href="#">
+                        <a href="https://jactos.contratoonline.tec.br/" target="_blank" >
                             <img src={basicoMob} alt="basico-plan" className="plan-img-mob" />
                         </a>
-                        <a href="#">
+                        <a href="https://jactos.contratoonline.tec.br/" target="_blank" >
                             <img src={intermediarioMob} alt="basico-plan" className="plan-img-mob" />
                         </a>
-                        <a href="#">
+                        <a href="https://jactos.contratoonline.tec.br/" target="_blank" >
                             <img src={completoMob} alt="basico-plan" className="plan-img-mob" />
                         </a>
-                        <a href="#">
+                        <a href="https://jactos.contratoonline.tec.br/" target="_blank" >
                             <img src={empresarialMob} alt="basico-plan" className="plan-img-mob" />
                         </a>
                     </div>

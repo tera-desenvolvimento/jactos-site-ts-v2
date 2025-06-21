@@ -5,7 +5,7 @@ import "../style/infomercial.css"
 function Infomercial() {
     return (
         <React.Fragment>
-            <div className="infomercial-container">
+            <div className="infomercial-container" id="about">
                 <h2>Por que escolher a Jactos?</h2>
 
                 <b>Velocidade e Estabilidade</b>

@@ -32,19 +32,19 @@ function Header() {
                                 </a>
                             </li>
                             <li className="menu-item">
-                                <a href="#">
+                                <a href="#plans">
                                     <img src={plansIcon} alt="plan-icon" className="menu-icon" />
                                     Planos
                                 </a>
                             </li>
                             <li className="menu-item">
-                                <a href="#">
+                                <a href="https://api.whatsapp.com/send?phone=556240099277" target="_blank">
                                     <img src={contactIcon} alt="contact-icon" className="menu-icon" />
                                     Contato
                                 </a>
                             </li>
                             <li className="menu-item subscriber">
-                                <a href="#">
+                                <a href="https://ixc.jactos.com.br/central_assinante_web/" target="_blank">
                                     <img src={subscriberIcon} alt="subscriber-icon" className="menu-icon" />
                                     Central do assinante
                                 </a>
@@ -65,7 +65,7 @@ function Header() {
                         <img src={logoJactos} className="logo-header-mob" />
                     </div>
                     <div className="right-wrapper">
-                        <a href="https://clientedg.beesweb.com.br/login" target='_blank' className="head-link customer-area">
+                        <a href="https://ixc.jactos.com.br/central_assinante_web/" target='_blank' className="head-link customer-area">
                             <img src={subscriberIcon} alt="Rocket Icon" className="nav-icon" />
                             Central do assinante
                         </a>
@@ -75,7 +75,7 @@ function Header() {
                     <nav className="nav-element-mob">
                         <ul className="menu-list-mob">
                             <li className="nav-item">
-                                <a href="#social" className="nav-link">
+                                <a href="#" className="nav-link">
                                     <img src={homeIcon} alt="Social Icon" className="nav-icon" />
                                     Home
                                 </a>
@@ -87,7 +87,7 @@ function Header() {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a href="#contact" className="nav-link">
+                                <a href="https://ixc.jactos.com.br/central_assinante_web/" target="_blank">
                                     <img src={contactIcon} alt="Contact Icon" className="nav-icon" />
                                     Contato
                                 </a>

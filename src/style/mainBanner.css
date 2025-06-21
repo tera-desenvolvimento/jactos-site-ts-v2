@@ -1,31 +1,21 @@
-.main-banner-container {
-    display: flex;
-    padding: 30px;
-    background-image: url("../img/new-banner.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right;
-}
-
-.main-banner-wrapper {
+.main-banner {
     width: -webkit-fill-available;
+    z-index: 30;
+    position: relative;
+    max-height: 580px;
 }
 
-.banner-plan-img {
-    width: 35%;
+.main-banner img {
+    width: 100%;
 }
 
-@media (max-width: 768px) {
-    .main-banner-container {
-        min-height: 200px;
-        background-position: -200px;
-    }
-
-    .main-banner-wrapper {
-        display: flex;
-    }
-
-    .banner-plan-img {
-        width: 70%;
-    }
+.main-banner-mob {
+    max-height: 243px;
 }
+
+.main-banner-mob .banner-slider {
+   width: 100%;
+   max-width: 100%;
+   overflow: hidden;
+   position: relative;
+ }

@@ -2,6 +2,7 @@
     width: -webkit-fill-available;
     z-index: 30;
     position: relative;
+    background-color: #f56004;
 }
 
 .main-banner img {

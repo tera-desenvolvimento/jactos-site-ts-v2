@@ -115,4 +115,5 @@
     height: 300px;
     left: -100px;
     margin-top: -400px;
+    z-index: 9;
 }

@@ -11,6 +11,8 @@
 .small-cards-container .separator {
     display: flex;
     gap: 40px;
+    position: relative;
+    z-index: 11;
 }
 
 .small-card {

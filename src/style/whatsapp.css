@@ -2,6 +2,7 @@
     bottom: 30px;
     position: fixed;
     right: 20px;
+    z-index: 100;
 }
 
 .whatsapp-button img {

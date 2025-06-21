@@ -87,7 +87,7 @@ function Header() {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a href="https://ixc.jactos.com.br/central_assinante_web/" target="_blank">
+                                <a href="https://ixc.jactos.com.br/central_assinante_web/" target="_blank" className="nav-link">
                                     <img src={contactIcon} alt="Contact Icon" className="nav-icon" />
                                     Contato
                                 </a>
